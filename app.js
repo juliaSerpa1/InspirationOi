@@ -8,6 +8,8 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const fibraRouter = require('./routes/oiFibra');
 const placeRouter = require('./routes/oiPlace');
+const playRouter = require('./routes/oiPlay');
+const minhaOiRouter = require('./routes/minhaOi')
 
 var app = express();
 
@@ -25,6 +27,8 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/oifibra', fibraRouter);
 app.use('/oiplace', placeRouter);
+app.use('/oiplay', playRouter);
+app.use('/minhaoi', minhaOiRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
