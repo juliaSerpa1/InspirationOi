@@ -1,0 +1,11 @@
+.btn-success{
+    background-color: #28db0b !important;
+    border-color: #28db0b !important;
+} 
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background-color: #28db0b;
+}
