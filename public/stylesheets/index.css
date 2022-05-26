@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    /* padding-top: 50px; */
+    padding-bottom: 50px;
+}
 .btn-success{
     background-color: #28db0b !important;
     border-color: #28db0b !important;
@@ -8,4 +16,93 @@ nav .animation{
     top: 0;
     z-index: 0;
     background-color: #28db0b;
+}
+h4{
+    font-size: small;
+}
+
+/* Carrousel */
+
+.owl-Carousel{
+    border-top: 100vh;
+}
+.carousel{
+    margin-bottom: 4rem;
+    position: relative;
+}
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item{
+    width: 100%;
+    height: 35rem;
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;    
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.bd-placeholder-img{
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100vh;
+}
+
+/* section 2 */
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.button-custon{
+    background-color: white;
+    padding: 50px;
+    border-top: 2px #6c706b;
+    border-left: 0ch;
+    border-right-width: 0ch;
+}
+.button-custon:hover{
+    border-radius: 80px 0px 0px 80px;
+    background-color: #28db0b;
+    transition: 0.3s;
+}
+.custon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.acuston{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    padding-left: 20px;
+}
+
+/* Parallax */
+
+#parallax-image{
+    background-image: url("https://i.postimg.cc/HkC2J7VR/banner2.jpg");
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 3px 3px 10px 0px;
+}
+
+/* Footer */
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
 }
