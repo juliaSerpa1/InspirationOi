@@ -1,0 +1,30 @@
+#parallax-image{
+    background-image: url("https://i.postimg.cc/T3QbjkyH/logooiplay.png");
+    height: 100vh;
+    margin-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 3px 3px 10px 0px;
+}
+#parallax-image2{
+    background-image: url("https://i.postimg.cc/B6zkjccj/oifibra2.png");
+    height: 100vh;
+    margin-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 3px 3px 10px 0px;
+}
+#parallax-image3{
+    background-image: url("https://i.postimg.cc/KjdFByFh/logooifibra2.jpg");
+    height: 100vh;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 3px 3px 10px 0px;
+}
